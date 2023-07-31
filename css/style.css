@@ -1,0 +1,121 @@
+body{
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
+ /* ------Title CSS------ */
+
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.header{
+  display: inline-flex;
+  width: 100vw;
+  margin: 0;
+  height: 58em;
+  gap: 6rem;
+  justify-content: space-around;
+  flex-wrap: wrap-reverse;
+}
+h1{
+  margin: 10px;
+  font-size: 80px;
+  text-align: start;
+  width: 400px;
+  word-wrap: break-word;
+  line-height: 1.2;
+}
+.h1title{
+  margin: 0;
+  align-self: center;
+  height: 200px;
+}
+.iphoneImg{
+  height: 800px;
+}
+.aTitle{
+  border: 1px solid black;
+  margin: 10px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  font-size: 30px;
+  padding: 5px 22px 5px 22px;
+
+  text-decoration: none;
+  color: black;
+}
+.appleLink{
+  background-color: white;
+}
+.playLink:hover{
+  background-color: white;
+  transition: 0.5s;
+}
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+@media (max-width: 1020px){
+  .header{
+    gap: 2rem;
+    width: 100%;
+  }
+  .iphoneImg{
+    height: 500px;
+  }
+  h1{
+    width: 300px;
+    font-size: 50px;
+  }
+  .h1title{
+    width: fit-content;
+  }
+  .aTitle{
+    font-size: 15px;
+  }
+}
+/* --------------Feature-------- */
+
+#featureText{
+  font-size: 30px;
+}
+
+/* Testimonial */
+
+#testiText{
+  text-align: center;
+  display: inline-block;
+  width: 60%;
+  font-size: 40px;
+  word-spacing: 5px;
+}
+#dogImg{
+  margin: auto;
+  margin-top: 50px;
+  display: block;
+  width: 180px;
+}
+
+/* Footer */
+#footCont{
+  display: inline;
+}
